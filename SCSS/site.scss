@@ -1,0 +1,191 @@
+* {
+  font-family: "Open Sans",Helvetica,sans-serif;
+}
+body {
+  font-size: 15px;
+  font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+div.page-header img.header-logo {
+  height: 24px;
+  margin: 12px 0 8px 40px;
+}
+
+.page-header--inner {
+  background-color: black;
+  border-bottom: 1px solid white;
+  .i-button.accept:not(.label):not(.borderless):not(.text-color),
+  div.session-bar :not(.label):not(.borderless):not(.text-color).i-button.protection-public,
+  .categorynav .category-list .item .button-wrapper .accept:not(.label):not(.borderless):not(.text-color).action-button,
+  div.session-bar .categorynav .category-list .item .button-wrapper :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+  .categorynav .category-list .item .button-wrapper div.session-bar :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+  .accept:not(.label):not(.borderless):not(.text-color).action-button,
+  div.session-bar :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+  .i-button:not(.label), .categorynav .category-list .item .button-wrapper :not(.label).action-button,
+  :not(.label).action-button {
+      background: transparent;
+      border: 0;
+      color: white;
+      &:hover {
+        background: transparent;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        background-image: none;
+        border-color: black;
+        color: white;
+        opacity: 0.6;
+      }
+  }
+}
+
+.toolbar.global-menu {
+  background: #bbb !important;
+  border-width: 0;
+  a {
+    color: black;
+  }
+  >a:hover,
+  a.open {
+    background: #fff !important;
+  }
+}
+
+.dropdown>li {
+    height: 2rem;
+    min-width: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.config-menu {
+  padding-right: 40px;
+}
+
+.category-header {
+  padding: 20px 40px;
+}
+
+.category-title {
+  font-weight: 300;
+  font-size: 32px;
+  color: initial;
+}
+
+.event-list h4 {
+  margin-left: 0;
+}
+.event-list li {
+  margin: 0;
+}
+
+div.page-header-dark {
+    background: black;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 2px 40px 3px 40px;
+  * {
+    line-height: initial;
+  }
+  a {
+    color: white;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+
+
+// craxy overrides
+.i-button.accept:not(.label):not(.borderless):not(.text-color),
+div.session-bar :not(.label):not(.borderless):not(.text-color).i-button.protection-public,
+.categorynav .category-list .item .button-wrapper .accept:not(.label):not(.borderless):not(.text-color).action-button,
+div.session-bar .categorynav .category-list .item .button-wrapper :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+.categorynav .category-list .item .button-wrapper div.session-bar :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+.accept:not(.label):not(.borderless):not(.text-color).action-button,
+div.session-bar :not(.label):not(.borderless):not(.text-color).protection-public.action-button,
+.i-button:not(.label), .categorynav .category-list .item .button-wrapper :not(.label).action-button,
+:not(.label).action-button {
+    background: transparent;
+    border: 0;
+    border-color: #67a766;
+    color: #777;
+    &:hover {
+      background: transparent;
+      background-image: none;
+      background-image: none;
+      background-image: none;
+      background-image: none;
+      background-image: none;
+      border-color: black;
+      color: black;
+    }
+}
+
+.i-button.highlight:not(.label):not(.borderless):not(.text-color),
+.i-selection input[type=checkbox]:checked+label:not(.label):not(.borderless):not(.text-color),
+.i-selection input[type=radio]:checked+label:not(.label):not(.borderless):not(.text-color),
+.categorynav .category-list .item .button-wrapper .highlight:not(.label):not(.borderless):not(.text-color).action-button,
+.categorynav .category-list .item .button-wrapper :not(.label):not(.borderless):not(.text-color).action-button,
+.highlight:not(.label):not(.borderless):not(.text-color).action-button, :not(.label):not(.borderless):not(.text-color).action-button {
+    border-color: #585a5d;
+    color: #fff;
+    background: none;
+    background-color: #585a5d;
+    margin: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    &:hover {
+      background: black;
+    }
+
+}
+
+.toolbar .group .i-button:not(.hidden):last-child,
+.i-has-action .i-button:not(.hidden):last-child,
+.toolbar .group .categorynav .category-list .item .button-wrapper :not(.hidden):last-child.action-button,
+.categorynav .category-list .item .button-wrapper .toolbar .group :not(.hidden):last-child.action-button,
+.i-has-action .categorynav .category-list .item .button-wrapper :not(.hidden):last-child.action-button,
+.categorynav .category-list .item .button-wrapper .i-has-action :not(.hidden):last-child.action-button,
+.toolbar .group :not(.hidden):last-child.action-button, .i-has-action :not(.hidden):last-child.action-button {
+  -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right-width: 0;
+}
+
+.dialog-page header .page-info, .management-page header .page-info,
+.fixed-width-standalone-page header .page-info,
+.fixed-width-standalone-text-page header .page-info,
+.conference-page header .page-info,
+.meeting-page header .page-info, h1,
+.corner-message, div.announcement-bar,
+div.main-breadcrumb, div.session-bar,
+#filter-placeholder,
+.qtip-default.add-field-qtip, .side-menu,
+.categorynav .category-list .search-results-list .title strong,
+.category-calendar-page header .page-info, .timetable-title,
+.participant-list-wrapper ul.participant-list,
+.paper-content .spotlight-file-name {
+  font-family: "Open Sans",Helvetica,sans-serif;
+
+}
