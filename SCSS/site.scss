@@ -11,6 +11,10 @@ body {
   background-color: white;
 }
 
+div.login-container img.header-logo {
+  content: url("/static/custom/images/ecmwf_login_logo.png");
+}
+
 div.page-header img.header-logo {
   height: 24px;
   margin: 12px 0 8px 40px;

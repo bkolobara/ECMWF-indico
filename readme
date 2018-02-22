@@ -4,7 +4,5 @@
 
 ```
 CUSTOMIZATION_DIR = '/opt/indico/indico-theme'
-LOGO_URL = 'https://www.ecmwf.int/sites/all/themes/ecmwf2013/logo.png'
+LOGO_URL = '/static/custom/images/ecmwf-logo.png'
 ```
-
-I've linked the logo with an absolute URL to ECMWF's because I couldn't get the logo file path working relatively but it is included in this repo, within the static files. 
