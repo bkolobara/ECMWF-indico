@@ -120,7 +120,12 @@ div.page-header-dark {
   }
 }
 
-
+.login-page .footer {
+  background: #f9f9f9;
+  color: black;
+  padding: 10px;
+  margin-left: -50px;
+}
 
 
 // craxy overrides
@@ -461,4 +466,8 @@ div.main-breadcrumb, div.session-bar,
 .paper-content .spotlight-file-name {
   font-family: "Open Sans",Helvetica,sans-serif;
 
+}
+
+.reviewing-page {
+  padding-bottom: 50px;
 }
