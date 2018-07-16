@@ -2,9 +2,30 @@ $blue: #275992;
 $blue--light: #357ac8;
 $black: #333;
 
+
+/* Indico timetable theme fixes */
+
+.dialog-page header .page-info,
+.management-page header .page-info,
+.fixed-width-standalone-page header .page-info,
+.fixed-width-standalone-text-page header .page-info,
+.conference-page header .page-info,
+.meeting-page header .page-info,
+h1,
+.timetable-item-body .timetable-item-header .timetable-title {
+  font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+.day-header .day-title {
+  color: black;
+}
+
+/* END Indico timetable theme fixes */
+
 * {
   font-family: "Open Sans",Helvetica,sans-serif;
 }
+
 body {
   font-size: 15px;
   font-family: "Open Sans",Helvetica,sans-serif;
