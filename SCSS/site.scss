@@ -13,7 +13,7 @@ $black: #333;
 .meeting-page header .page-info,
 h1,
 .timetable-item-body .timetable-item-header .timetable-title {
-  font-family: "Open Sans",Helvetica,sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 .day-header .day-title {
@@ -495,4 +495,8 @@ div.main-breadcrumb, div.session-bar,
 
 .reviewing-page {
   padding-bottom: 50px;
+}
+
+.past-events > .info-message-box {
+  margin: 20px 0;
 }
